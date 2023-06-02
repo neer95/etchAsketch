@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #main{
+    border: 1px solid red;
+    width: 196px;
+    height: 196px;
+} */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main {
+    margin-top: 80px;
+    height: 400px;
+    display: flex;
+    width: 400px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.square {
+    /* height: 20px; */
+    /* width: 20px; */
+    border: 1px solid black;
+
+    flex-basis: 6.25%;
+}
+
+.black {
+    background-color: black;
+}
